@@ -1,0 +1,63 @@
+.displayPoses {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin: 20px;
+}
+.indivPoses {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  padding: 30px;
+  margin: 20px;
+  width: 90vw;
+  border: 1px solid rgb(255, 0, 0);
+}
+.indivInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: auto;
+}
+.poseImg {
+  width: auto;
+  height: auto;
+  max-width: 150px;
+  max-height: 200px;
+}
+.otherPoseImages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.allPoseImgs {
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  max-height: 100px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(4, 0, 255);
+    text-align: center;
+}
+h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
